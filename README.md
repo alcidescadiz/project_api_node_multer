@@ -28,6 +28,7 @@ POST http://localhost:3000/api/user  Crear un usuario
         * imagen [file < 1mb]
         
 PUT http://localhost:3000/api/user/:id  Actualizar datos de usuario
+
     Campos:
         * fullname [string]
         * email [string]
