@@ -26,6 +26,7 @@ POST http://localhost:3000/api/user  Crear un usuario
         * email [string]
         * cedula [number]
         * imagen [file < 1mb]
+        *  Se debe crear en la raiz del proyecto la carpeta public/users
         
 PUT http://localhost:3000/api/user/:id  Actualizar datos de usuario
 
