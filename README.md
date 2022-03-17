@@ -20,6 +20,7 @@ GET  http://localhost:3000/api/user  Obtener todos los usuarios
 GET  http://localhost:3000/api/user/:id   Obtener un solo usuario poor Id
 
 POST http://localhost:3000/api/user  Crear un usuario
+
     Campos:
         * fullname [string]
         * email [string]
@@ -35,6 +36,7 @@ PUT http://localhost:3000/api/user/:id  Actualizar datos de usuario
         * imagen [file < 1mb]
         
 PUT http://localhost:3000/api/user/softdelete/:id Eliminar un usuario por cambio de "estado" por medio del id
+
 DELETE http://localhost:3000/api/user/:id  Eliminar un usuario
 
 ## scripts
